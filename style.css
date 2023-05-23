@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro:ital,wght@0,400;0,700;1,600&display=swap');
+
+
+
+body, html {
+	padding: 0;
+	margin: 0;
+	font-size: 16px;
+	line-height: 1.5rem;
+	color: #FFF;
+}
+
+body {
+	font-family: 'Source Serif Pro', serif;
+	background-image: url('bg.jpg');
+}
+
+img {
+	max-width: 100%;
+	border-radius: 4px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-style: italic;
+	font-weight: 600;
+}
+
+h1::after {
+	content: " ";
+	width: 36px;
+	background: #FFF;
+	height: 3px;
+	display: block;
+	margin-top: 24px;
+}
+
+.page {
+	padding: 24px;
+	overflow: auto;
+	margin-top: 240px;
+}
+
+.page h1:first-child {
+	margin-top: 0;
+}
+
+a {
+	color: #4b77a6;
+	text-decoration: none;
+}
+
+.header-body {
+	text-align: center;
+	padding-top: 60px;
+	background-image: none;
+	position: relative;
+}
+
+.avatar {
+	width: 160px;
+}
+
+.title {
+	font-size: 18px;
+	font-style: italic;
+	font-weight: 600;
+	margin: 12px 0;
+	letter-spacing: 0.5px;
+}
+
+.menu a {
+	display: inline-block;
+	padding: 6px;
+}
+
+.top iframe {
+	border: 0;
+	/* Edit this height if you would like the header to be taller */
+	height: 360px;
+	width: 100%
+}
+
+.wrapper {
+	width: 800px;
+	margin: auto;
+	margin-top: 60px;
+	box-shadow: 0 0 24px #3d382c1c;
+	background: #161617;
+	padding: 24px 60px;
+	box-sizing: border-box;
+	border-radius: 5px;
+	margin-bottom: 120px;
+	padding-bottom: 120px;
+}
+
+/* You can remove the CSS below if you don't care about tables (example on the about page) */
+
+table {
+	border: 1px solid #2e2e39;
+	border-collapse: collapse;
+	margin: 36px 0;
+}
+
+th, td {
+	padding: 12px 24px;
+}
+
+th {
+	background: #2e2e39;
+	font-weight: 600;
+	letter-spacing: 0.5px;
+}
+
+tr {
+	background-color: #161617;
+}
+
+tr:hover {
+	background: #2e2e398F;
+}
+
+	
