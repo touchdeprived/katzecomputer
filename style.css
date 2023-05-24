@@ -61,7 +61,7 @@ a {
 }
 
 .avatar {
-	width: 160px;
+	width: 100px;
 }
 
 .title {
@@ -79,18 +79,19 @@ a {
 
 .top iframe {
 	border: 0;
-	height: 100vh; /* Changed height to 100vh */
-	width: 100%;
+	/* Edit this height if you would like the header to be taller */
+	height: 360px;
+	width: 100%
 }
 
 .wrapper {
 	width: 100%;
-	max-width: 800px;
+	max-width: 800px; /* Added max-width */
 	margin: auto;
 	margin-top: 60px;
 	box-shadow: 0 0 24px #3d382c1c;
 	background: #161617;
-	padding: 24px 20px;
+	padding: 24px 20px; /* Adjusted padding */
 	box-sizing: border-box;
 	border-radius: 5px;
 	margin-bottom: 120px;
@@ -125,6 +126,7 @@ tr:hover {
 }
 
 @media only screen and (max-width: 600px) {
+	/* Adjustments for mobile devices */
 	.page {
 		margin-top: 120px;
 	}
@@ -137,6 +139,10 @@ tr:hover {
 
 	h1::after {
 		margin-top: 12px;
+	}
+
+	.top iframe {
+		height: 240px;
 	}
 
 	.title {
