@@ -137,12 +137,9 @@ tr:hover {
 		padding-bottom: 60px;
 	}
 
-	h1::after {
-		margin-top: 12px;
-	}
-
 	.top iframe {
-		height: 240px;
+		height: calc(100vh - 480px);
+		max-height: 360px;
 	}
 
 	.title {
