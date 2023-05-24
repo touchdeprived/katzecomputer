@@ -79,9 +79,8 @@ a {
 
 .top iframe {
 	border: 0;
-	height: auto; /* Changed height to auto */
+	height: 100vh; /* Changed height to 100vh */
 	width: 100%;
-	max-width: 100%; /* Added max-width */
 }
 
 .wrapper {
