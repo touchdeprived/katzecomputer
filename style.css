@@ -1,8 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro:ital,wght@0,400;0,700;1,600&display=swap');
 
-
-
-body, html {
+body,
+html {
 	padding: 0;
 	margin: 0;
 	font-size: 16px;
@@ -20,7 +19,12 @@ img {
 	border-radius: 4px;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
 	font-style: italic;
 	font-weight: 600;
 }
@@ -81,12 +85,13 @@ a {
 }
 
 .wrapper {
-	width: 800px;
+	width: 100%;
+	max-width: 800px; /* Added max-width */
 	margin: auto;
 	margin-top: 60px;
 	box-shadow: 0 0 24px #3d382c1c;
 	background: #161617;
-	padding: 24px 60px;
+	padding: 24px 20px; /* Adjusted padding */
 	box-sizing: border-box;
 	border-radius: 5px;
 	margin-bottom: 120px;
@@ -101,7 +106,8 @@ table {
 	margin: 36px 0;
 }
 
-th, td {
+th,
+td {
 	padding: 12px 24px;
 }
 
@@ -119,4 +125,33 @@ tr:hover {
 	background: #2e2e398F;
 }
 
-	
+@media only screen and (max-width: 600px) {
+	/* Adjustments for mobile devices */
+	.page {
+		margin-top: 120px;
+	}
+
+	.wrapper {
+		padding: 24px 10px;
+		margin-bottom: 60px;
+		padding-bottom: 60px;
+	}
+
+	h1::after {
+		margin-top: 12px;
+	}
+
+	.top iframe {
+		height: 240px;
+	}
+
+	.title {
+		font-size: 16px;
+		margin: 8px 0;
+	}
+
+	th,
+	td {
+		padding: 8px 16px;
+	}
+}
