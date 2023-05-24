@@ -61,7 +61,7 @@ a {
 }
 
 .avatar {
-	width: 100px;
+	width: 160px;
 }
 
 .title {
@@ -80,7 +80,7 @@ a {
 .top iframe {
 	border: 0;
 	/* Edit this height if you would like the header to be taller */
-	height: 245px;
+	height: 360px;
 	width: 100%
 }
 
@@ -137,9 +137,12 @@ tr:hover {
 		padding-bottom: 60px;
 	}
 
+	h1::after {
+		margin-top: 12px;
+	}
+
 	.top iframe {
-		height: calc(100vh - 480px);
-		max-height: 360px;
+		height: 240px;
 	}
 
 	.title {
